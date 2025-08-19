@@ -9,6 +9,8 @@ var (
 	requiredFiles = []string{"README.md", "main.go", "main_test.go", "go.mod"}
 )
 
+// sosal
+
 func TestCheckRequiredFiles(t *testing.T) {
 
 	dir, err := os.Getwd()
